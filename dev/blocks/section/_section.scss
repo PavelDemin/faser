@@ -1,0 +1,24 @@
+.section-one-wrap {
+    background: url(../../static/images/phone.png) no-repeat right 20% top -45%;
+    height: 494px;
+    background-color: $bgc;
+}
+.section-two-wrap {
+    background: url(../../static/images/iphone5.png) no-repeat left 13% top -95%;
+    height: 558px;
+}
+.section {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    &--one {
+        padding-top: 113px;
+        padding-left: 128px;
+    }
+    &--two {
+        margin-left: auto;
+        padding-right: 80px;
+        padding-top: 142px;
+    }
+
+}

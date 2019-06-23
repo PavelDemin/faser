@@ -1,0 +1,19 @@
+.social {
+    display: flex;
+    font-size: 30px;
+    &__item {
+        margin-right: 15px;
+        &:last-child {
+            margin-right: 0px;
+        }
+        
+    }   
+    &__link {
+        color: white;
+        cursor: pointer;
+        transition: all .3s ease;
+        &:hover {
+            opacity: 0.7;
+        }
+    }
+}

@@ -24,6 +24,7 @@ module.exports = function () {
             .pipe($.gulp.dest(stylesPATH.ouput))
             .on('end', $.browserSync.reload);
     });
+
     $.gulp.task('styles:build', () => {
         return $.gulp.src(stylesPATH.input + 'styles.scss')
             .pipe(scss())

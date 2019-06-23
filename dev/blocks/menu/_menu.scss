@@ -1,12 +1,14 @@
 .main-menu {
     &__list {
-        padding-top: 75px;
         display: flex;
         justify-content: center;
         align-items: center;
     }
     &__item {
         margin-right: 65px;
+        &:last-child {
+            margin-right: 0px;
+        }
     }
     &__link {
         color: $white;
